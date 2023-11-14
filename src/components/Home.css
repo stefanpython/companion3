@@ -1,0 +1,19 @@
+.home-container {
+  min-height: 82vh;
+}
+
+p {
+  text-align: left;
+  padding: 10px 20%;
+  margin: 0 auto;
+}
+
+.color-text {
+  color: rgb(255, 123, 0);
+}
+
+@media (max-width: 768px) {
+  p {
+    padding: 10px 20px;
+  }
+}

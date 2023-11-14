@@ -1,0 +1,35 @@
+.testimonials-container {
+  padding: 0 165px;
+}
+
+.testimonials-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+  gap: 35px;
+}
+
+.testimonials-content {
+  border: 1px solid rgb(167, 167, 167);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 12px 11px rgb(158, 158, 158);
+  background-color: rgb(243, 243, 243);
+}
+
+.testimonials-content p {
+  padding: 40px;
+  word-spacing: 2px;
+  line-height: 25px;
+  font-family: "Source Sans 3", sans-serif;
+  font-style: oblique;
+}
+
+@media (max-width: 768px) {
+  .testimonials-container {
+    padding: 0 10px;
+  }
+
+  .testimonials-box {
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  }
+}

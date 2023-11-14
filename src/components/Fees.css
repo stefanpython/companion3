@@ -1,0 +1,28 @@
+.fees-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 82vh;
+}
+
+.fees-container li {
+  text-align: left;
+  margin: 0 20%;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.price-container p {
+  padding: 1px;
+  margin: 0 21.3%;
+}
+
+.memoriam-text p {
+  text-align: right;
+  font-style: italic;
+}
+
+.fees-content li {
+  font-size: 18px;
+  font-family: "Arimo", sans-serif;
+  list-style: circle;
+}
