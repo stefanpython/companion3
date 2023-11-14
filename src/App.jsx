@@ -12,7 +12,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <HashRouter basename={"/companion3/"}>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
